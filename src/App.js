@@ -64,9 +64,6 @@ class App extends React.Component {
                 makeLink(row)
             })
 
-
-
-            console.log(data)
             console.log(this.nodes)
             console.log(this.links)
             this.setState({ showChart: true })
@@ -86,13 +83,12 @@ class App extends React.Component {
     }
 
     render() {
-        console.log('render')
+        // console.log('render')
         const option = this.getOption()
-        console.log(option)
         return (
             <div className="App">
                 <header className="App-header">
-                    {this.state.showChart && <ReactEcharts className='chart' style={{ height: '600px' }} option={option} />}
+                    {this.state.showChart && <ReactEcharts className='chart' style={{ height: Math.round(window.innerHeight * 0.9) + 'px' }} option={option} />}
                 </header>
             </div>
         )
