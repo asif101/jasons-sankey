@@ -20,6 +20,7 @@ async function fetchCsv() {
 const colors = {
     NDP: 'rgb(255, 149, 0)',
     UCP: 'rgb(49, 153, 156)',
+    PC: 'rgb(49, 153, 156)',
     AP: 'rgb(51, 102, 0)',
     LIB: 'rgb(192, 0, 0)',
     WR: 'rgb(102, 0, 255)',
