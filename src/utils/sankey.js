@@ -6,6 +6,7 @@ const colors = {
     LIB: 'rgb(192, 0, 0)',
     WR: 'rgb(102, 0, 255)',
     WRI: 'rgb(102, 0, 255)',
+    OTH: 'grey',
     UND: 'grey',
     NV: '#242937'
 }
